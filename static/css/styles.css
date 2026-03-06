@@ -1,0 +1,16 @@
+/* Background for the entire body */
+body {
+    background-image: url("/static/img/body.jpg");
+    background-size: cover;       /* Scale image to cover entire area */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep background fixed when scrolling */
+}
+
+/* Background for the header only */
+header {
+    background-image: url("/static/img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  /* Center the image */
+    height: 200px;                /* Adjust height as needed */
+}
